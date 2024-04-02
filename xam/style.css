@@ -1,0 +1,37 @@
+body{
+    height: 100vh;
+    background-image: url(./image/210975.jpg);   
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 30px;
+    background-color: #fff;
+    background-color: transparent 1px;
+    box-shadow: rgb(0, 110, 255) 0px 5px 15px;
+}
+.input-field{
+    text-align: center;
+}
+input[type="text"]{
+    color: #fff;
+    border: none;
+    background-color: #f7f7f7;
+    max-width: 400px;
+}
+.todos li{
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+}
+.delete{
+    cursor: pointer;
+    color: red;
+}
